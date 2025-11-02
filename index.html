@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Library Management System</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">📚 Library Management System</div>
+    <div class="controls">
+      <select id="user-select"></select>
+      <button id="switch-user" class="btn">Switch</button>
+      <label class="theme">
+        <input type="checkbox" id="theme-toggle" />
+        Dark
+      </label>
+    </div>
+  </header>
+  
+
+  <main class="container">
+    <section class="top">
+      <div class="search-wrap">
+        <input id="search-input" placeholder="Search title, author, publisher, director..." />
+        <div class="filter-controls">
+            <select id="category-filter">
+              <option value="all">All</option>
+              <option value="Book">Books</option>
+              <option value="Magazine">Magazines</option>
+              <option value="DVD">DVDs</option>
+            </select>
+            <select id="availability-filter">
+              <option value="all">All</option>
+              <option value="available">Available</option>
+              <option value="borrowed">Borrowed</option>
+            </select>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="card stat stat-card">
+          <div class="label">Total</div>
+          <div id="stat-total" class="value">0</div>
+        </div>
+        <div class="card stat stat-card">
+          <div class="label">Available</div>
+          <div id="stat-available" class="value">0</div>
+        </div>
+        <div class="card stat stat-card">
+          <div class="label">Borrowed</div>
+          <div id="stat-borrowed" class="value">0</div>
+        </div>
+        <div class="card stat stat-card">
+          <div class="label">Users</div>
+          <div id="stat-users" class="value">0</div>
+        </div>
+      </div>
+
+      <div class="user-details">
+        <div class="card" id="user-panel">
+          <h3>User</h3>
+          <div id="user-details">No user selected</div>
+        </div>
+
+        <div class="card" id="borrowed-panel">
+          <h3>Borrowed Items</h3>
+          <ul id="borrowed-list" class="list borrowed-items"></ul>
+        </div>
+
+      </div>
+    </section>
+
+ 
+
+    <section class="main-grid">
+      <section class="items-panel">
+        <h2>Items</h2>
+        <div id="items-grid" class="items-grid"></div>
+      </section>
+
+    </section>
+
+    <div class="user-details">
+        <div class="card" id="transactions-panel">
+          <h3>Transactions</h3>
+          <div id="transactions" class="timeline"></div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <div id="modal-overlay" class="modal-overlay hidden">
+    <div class="modal card">
+      <button id="modal-close" class="close">&times;</button>
+      <h3>Borrow Item</h3>
+      <form id="borrow-form">
+        <input type="hidden" id="modal-item-id" />
+        <div class="form-row">
+          <label>Item</label>
+          <div id="modal-item-title"></div>
+        </div>
+        <div class="form-row">
+          <label>Due Date</label>
+          <input type="date" id="due-date" required />
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Confirm</button>
+          <button type="button" id="modal-cancel" class="btn ghost">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div id="toasts" class="toasts"></div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

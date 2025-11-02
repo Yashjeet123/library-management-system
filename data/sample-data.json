@@ -1,0 +1,303 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "The Pragmatic Programmer",
+      "publicationYear": 1999,
+      "isAvailable": true,
+      "type": "Book",
+      "meta": {
+        "author": "Andrew Hunt",
+        "isbn": "978-0201616224",
+        "genre": "Programming"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 2,
+      "title": "You Don't Know JS",
+      "publicationYear": 2015,
+      "isAvailable": true,
+      "type": "Book",
+      "meta": {
+        "author": "Kyle Simpson",
+        "isbn": "978-1491904244",
+        "genre": "Programming"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 3,
+      "title": "Clean Code",
+      "publicationYear": 2008,
+      "isAvailable": true,
+      "type": "Book",
+      "meta": {
+        "author": "Robert C. Martin",
+        "isbn": "978-0132350884",
+        "genre": "Software"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 4,
+      "title": "Design Patterns",
+      "publicationYear": 1994,
+      "isAvailable": true,
+      "type": "Book",
+      "meta": {
+        "author": "Erich Gamma",
+        "isbn": "978-0201633610",
+        "genre": "Computer Science"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 5,
+      "title": "Refactoring",
+      "publicationYear": 1999,
+      "isAvailable": true,
+      "type": "Book",
+      "meta": {
+        "author": "Martin Fowler",
+        "isbn": "978-0201485677",
+        "genre": "Software Engineering"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 6,
+      "title": "Effective Java",
+      "publicationYear": 2018,
+      "isAvailable": true,
+      "type": "Book",
+      "meta": {
+        "author": "Joshua Bloch",
+        "isbn": "978-0134685991",
+        "genre": "Programming"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 7,
+      "title": "Cracking the Coding Interview",
+      "publicationYear": 2015,
+      "isAvailable": true,
+      "type": "Book",
+      "meta": {
+        "author": "Gayle Laakmann McDowell",
+        "isbn": "978-0984782857",
+        "genre": "Career"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+
+    {
+      "id": 8,
+      "title": "Inception",
+      "publicationYear": 2010,
+      "isAvailable": true,
+      "type": "DVD",
+      "meta": {
+        "director": "Christopher Nolan",
+        "duration": 148
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 9,
+      "title": "The Dark Knight",
+      "publicationYear": 2008,
+      "isAvailable": true,
+      "type": "DVD",
+      "meta": {
+        "director": "Christopher Nolan",
+        "duration": 152
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 10,
+      "title": "Interstellar",
+      "publicationYear": 2014,
+      "isAvailable": true,
+      "type": "DVD",
+      "meta": {
+        "director": "Christopher Nolan",
+        "duration": 169
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 11,
+      "title": "The Matrix",
+      "publicationYear": 1999,
+      "isAvailable": true,
+      "type": "DVD",
+      "meta": {
+        "director": "The Wachowskis",
+        "duration": 136
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 12,
+      "title": "Avengers: Endgame",
+      "publicationYear": 2019,
+      "isAvailable": true,
+      "type": "DVD",
+      "meta": {
+        "director": "Anthony & Joe Russo",
+        "duration": 181
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 13,
+      "title": "Jurassic Park",
+      "publicationYear": 1993,
+      "isAvailable": true,
+      "type": "DVD",
+      "meta": {
+        "director": "Steven Spielberg",
+        "duration": 127
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 14,
+      "title": "Titanic",
+      "publicationYear": 1997,
+      "isAvailable": true,
+      "type": "DVD",
+      "meta": {
+        "director": "James Cameron",
+        "duration": 195
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+
+    {
+      "id": 15,
+      "title": "National Geographic - Oct 2025",
+      "publicationYear": 2025,
+      "isAvailable": true,
+      "type": "Magazine",
+      "meta": {
+        "issueNumber": "Oct 2025",
+        "publisher": "National Geographic"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 16,
+      "title": "Time Magazine - Nov 2025",
+      "publicationYear": 2025,
+      "isAvailable": true,
+      "type": "Magazine",
+      "meta": {
+        "issueNumber": "Nov 2025",
+        "publisher": "TIME"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 17,
+      "title": "Forbes - Oct 2025",
+      "publicationYear": 2025,
+      "isAvailable": true,
+      "type": "Magazine",
+      "meta": {
+        "issueNumber": "Oct 2025",
+        "publisher": "Forbes Media"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 18,
+      "title": "Vogue - Sep 2025",
+      "publicationYear": 2025,
+      "isAvailable": true,
+      "type": "Magazine",
+      "meta": {
+        "issueNumber": "Sep 2025",
+        "publisher": "Condé Nast"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 19,
+      "title": "Scientific American - Aug 2025",
+      "publicationYear": 2025,
+      "isAvailable": true,
+      "type": "Magazine",
+      "meta": {
+        "issueNumber": "Aug 2025",
+        "publisher": "Springer Nature"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 20,
+      "title": "The Economist - Sep 2025",
+      "publicationYear": 2025,
+      "isAvailable": true,
+      "type": "Magazine",
+      "meta": {
+        "issueNumber": "Sep 2025",
+        "publisher": "The Economist Group"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    },
+    {
+      "id": 21,
+      "title": "Wired - Oct 2025",
+      "publicationYear": 2025,
+      "isAvailable": true,
+      "type": "Magazine",
+      "meta": {
+        "issueNumber": "Oct 2025",
+        "publisher": "Condé Nast"
+      },
+      "borrowedBy": null,
+      "dueDate": null
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Amit Sharma",
+      "email": "amit@example.com",
+      "membershipType": "Basic",
+      "borrowedItems": []
+    },
+    {
+      "id": 2,
+      "name": "Sunita Verma",
+      "email": "sunita@example.com",
+      "membershipType": "Premium",
+      "borrowedItems": []
+    }
+  ],
+  "transactions": []
+}
